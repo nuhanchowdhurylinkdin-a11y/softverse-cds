@@ -11,6 +11,6 @@ class SplashController extends GetxController {
 
   Future<void> _navigateToPair() async {
     await Future.delayed(const Duration(seconds: 2));
-    Get.offAllNamed(AppRoute.getHomeScreen());
+    Get.offAllNamed(AppRoute.getLoginScreen());
   }
 }
